@@ -1,0 +1,62 @@
+import './TabContent.css'
+
+function About() {
+  return (
+    <div className="tab-content">
+      <div className="container">
+        <div className="content-section">
+          <div className="about-hero">
+            <h1 className="section-title">About Me</h1>
+            <div className="about-card">
+              <div className="about-content">
+                <div className="profile-section">
+                  <div className="profile-image">
+                    <div className="profile-placeholder"></div>
+                  </div>
+                  <div className="profile-info">
+                    <h2>Hello, I'm [Your Name]</h2>
+                    <p className="lead">
+                      Welcome to my personal website. I'm passionate about creating
+                      innovative solutions and building meaningful projects.
+                    </p>
+                  </div>
+                </div>
+                <div className="about-details">
+                  <div className="detail-card">
+                    <div className="detail-icon">Education</div>
+                    <h3>Education</h3>
+                    <p>Currently pursuing my studies in [Your Field]</p>
+                  </div>
+                  <div className="detail-card">
+                    <div className="detail-icon">Experience</div>
+                    <h3>Experience</h3>
+                    <p>Building experience through projects and learning</p>
+                  </div>
+                  <div className="detail-card">
+                    <div className="detail-icon">Goals</div>
+                    <h3>Goals</h3>
+                    <p>Continuously learning and growing in my field</p>
+                  </div>
+                </div>
+                <div className="about-text">
+                  <p>
+                    I'm a dedicated developer/student who loves to explore new
+                    technologies and create projects that make a difference. This
+                    website showcases my work, credentials, and projects.
+                  </p>
+                  <p>
+                    Feel free to explore the different sections to learn more about
+                    my background, credentials, and the projects I've worked on.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default About
+
