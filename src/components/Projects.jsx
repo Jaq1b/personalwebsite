@@ -3,24 +3,17 @@ import './TabContent.css'
 function Projects() {
   const projects = [
     {
-      title: 'Project One',
-      description: 'Description of project one. This is a detailed explanation of what the project does, technologies used, and key features.',
-      technologies: ['React', 'JavaScript', 'CSS'],
+      title: 'Algorithmic Trading Bot',
+      description: 'Developed an automated trading bot using Python and Alpaca API that generated $1,500 profit on $10,000 initial investment during 2-week paper trading period. Implemented real-time market data processing, technical analysis indicators, and risk management protocols achieving 15% return.',
+      technologies: ['Python', 'Alpaca API', 'Financial Analysis', 'Pandas', 'NumPy'],
       status: 'Completed',
       link: '#'
     },
     {
-      title: 'Project Two',
-      description: 'Description of project two. This project demonstrates various skills and showcases your abilities in different areas.',
-      technologies: ['Node.js', 'Express', 'MongoDB'],
-      status: 'In Progress',
-      link: '#'
-    },
-    {
-      title: 'Project Three',
-      description: 'Add more projects as needed. Each project can have its own description, technologies, and status.',
-      technologies: ['Python', 'Django', 'PostgreSQL'],
-      status: 'Planning',
+      title: 'Raycasting 3D Engine',
+      description: 'Led team efforts to build a custom 3D rendering engine from scratch using raycasting techniques similar to Doom, coordinating implementation of mathematical ray-wall intersection algorithms across multiple developers. Contributed to team development of efficient wall rendering system with proper depth calculation, collision detection, and optimized rendering pipeline for real-time performance.',
+      technologies: ['Java', 'Computer Graphics', 'Mathematical Algorithms', 'Raycasting'],
+      status: 'Completed',
       link: '#'
     }
   ]

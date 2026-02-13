@@ -59,8 +59,14 @@
   z-index: -1;
 }
 
+/* Ensure ::after only shows for specific pages - hide by default */
+.app::after {
+  display: none;
+}
+
 /* Home page background image */
 .app.home-page::after {
+  display: block;
   content: '';
   position: fixed;
   top: 0;
@@ -90,6 +96,7 @@
 
 /* About page background image */
 .app.about-page::after {
+  display: block;
   content: '';
   position: fixed;
   top: 0;
@@ -103,21 +110,17 @@
   background-repeat: no-repeat;
   z-index: -2;
   filter: blur(var(--bg-about-blur));
-  -webkit-filter: blur(var(--bg-about-blur));
   transform: scale(1.05);
   will-change: transform;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
 
-/* Dark overlay for about page */
-.app.about-page::before {
-  background: rgba(0, 0, 0, 0.15) !important;
-  z-index: -1;
-}
+
 
 /* Credentials page background image */
 .app.credentials-page::after {
+  display: block;
   content: '';
   position: fixed;
   top: 0;
@@ -146,6 +149,7 @@
 
 /* Projects page background image */
 .app.projects-page::after {
+  display: block;
   content: '';
   position: fixed;
   top: 0;

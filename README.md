@@ -4,12 +4,12 @@ A modern, beautiful personal website with a tabbed interface built with React an
 
 ## Features
 
-- 🎨 Modern, responsive design with smooth animations
-- 📱 Mobile-friendly interface
-- 🚀 Fast performance with Vite
-- 🎯 Tabbed navigation with React Router
-- ✨ Smooth transitions and hover effects
-- 🌈 Beautiful gradient backgrounds
+-  Modern, responsive design with smooth animations
+-  Mobile-friendly interface
+-  Fast performance with Vite
+-  Tabbed navigation with React Router
+-  Smooth transitions and hover effects
+-  Beautiful gradient backgrounds
 
 ## Tabs
 
