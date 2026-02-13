@@ -22,9 +22,9 @@ function About() {
                   <div className="profile-info">
                     <h2>Hello, I'm Jack Wember</h2>
                     <p className="lead">
-                        Welcome to my website.I'm a dedicated developer/student who loves to explore new
+                        Welcome to my website. I'm a dedicated developer/student who loves to explore new
                         technologies and create projects that make a difference. This
-                        website showcases my work, credentials, and projects.
+                        website showcases my work, credentials, and projects. I am currently a student at Indiana University Bloomington pursuing a Bachelor of Computer Science with a specialization in Software Engineering. I am currently very interested in the field of artificial intelligence and machine learning.
                     </p>
                   </div>
                 </div>
