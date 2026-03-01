@@ -10,10 +10,8 @@ export default function About() {
               About Me
             </h1>
 
-            {/* Main card */}
             <div className="bg-white/5 p-12 rounded-2xl shadow-[0_8px_32px_rgba(0,0,0,0.3)] isolate">
 
-              {/* Profile row */}
               <div className="flex gap-10 items-start mb-12 pb-10 border-b border-white/10 max-md:flex-col">
                 <div className="shrink-0">
                   <img
@@ -37,10 +35,8 @@ export default function About() {
                 </div>
               </div>
 
-              {/* Detail cards */}
               <div className="flex flex-col gap-8 mb-12">
 
-                {/* Education */}
                 <div className="text-left p-10 bg-white/5 rounded-xl text-white/95 transition-all duration-300 shadow-[0_4px_16px_rgba(0,0,0,0.2)] w-full isolate hover:bg-white/[0.08] hover:-translate-y-1 hover:shadow-[0_8px_24px_rgba(0,0,0,0.3)]">
                   <h3 className="font-display text-[1.25rem] mb-4 font-semibold text-white/95 tracking-[-0.01em]">
                     Education
@@ -66,7 +62,6 @@ export default function About() {
                   </div>
                 </div>
 
-                {/* Work Experience */}
                 <div className="text-left p-10 bg-white/5 rounded-xl text-white/95 transition-all duration-300 shadow-[0_4px_16px_rgba(0,0,0,0.2)] w-full isolate hover:bg-white/[0.08] hover:-translate-y-1 hover:shadow-[0_8px_24px_rgba(0,0,0,0.3)]">
                   <h3 className="font-display text-[1.25rem] mb-4 font-semibold text-white/95 tracking-[-0.01em]">
                     Work Experience
@@ -119,7 +114,6 @@ export default function About() {
                 </div>
               </div>
 
-              {/* Skills */}
               <div className="text-left p-10 bg-white/5 backdrop-blur-xl rounded-xl text-white/95 transition-all duration-300 shadow-[0_4px_16px_rgba(0,0,0,0.2)] w-full mb-12 isolate hover:bg-white/[0.08] hover:-translate-y-1 hover:shadow-[0_8px_24px_rgba(0,0,0,0.3)]">
                 <h3 className="font-display text-[1.25rem] mb-6 font-semibold text-white/95 tracking-[-0.01em]">
                   Skills

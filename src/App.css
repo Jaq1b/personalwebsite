@@ -2,7 +2,6 @@
   --bg-image: url('/IMG_7542.jpeg');
 }
 
-/* Dark overlay */
 .app::before {
   content: '';
   position: fixed;
@@ -11,12 +10,10 @@
   z-index: -1;
 }
 
-/* Background image layer — hidden by default */
 .app::after {
   display: none;
 }
 
-/* All pages share the same image — blur varies per page */
 .app.home-page::after,
 .app.about-page::after,
 .app.credentials-page::after,

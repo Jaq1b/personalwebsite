@@ -30,7 +30,6 @@ function AppContent() {
   const navigate = useNavigate()
   const location = useLocation()
 
-  // Derive active tab directly from URL — never stale
   const activePath = location.pathname.replace(/\/$/, '') || '/'
   const activeTab = tabs.find((t) => t.path === activePath)?.id ?? ''
   const pageClass = pageClassMap[activePath] ?? ''
