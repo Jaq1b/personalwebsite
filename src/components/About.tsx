@@ -128,7 +128,7 @@ export default function About() {
                   {[
                     { heading: 'Languages', tags: ['Python', 'Java', 'Kotlin', 'SQL', 'C', 'Lua', 'HTML/CSS', 'R', 'CUDA', 'Bash/Shell'] },
                     { heading: 'Libraries & Frameworks', tags: ['React', 'TypeScript', 'Tailwind CSS', 'PyTorch', 'PostgreSQL', 'NodeJS', 'Pandas', 'Yfinance', 'JUnit', 'NumPy', 'OpenCV'] },
-                    { heading: 'Developer Tools', tags: ['Git', 'GitHub', 'VSCode', 'Roblox Studio', 'IntelliJ', 'Maven', 'Gradle', 'Linux/Unix', 'Venv/VM', 'Docker'] },
+                    { heading: 'Developer Tools', tags: ['Git/GitHub', 'VSCode', 'Roblox Studio', 'IntelliJ', 'Maven', 'Gradle', 'Linux/Unix', 'API', 'Venv/VM', 'Docker'] },
                   ].map(({ heading, tags }) => (
                     <div key={heading}>
                       <h4 className="font-display text-[1rem] mb-4 font-semibold text-white/95 tracking-[-0.01em]">

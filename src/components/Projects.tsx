@@ -12,7 +12,14 @@ const projects: Project[] = [
     description: 'Led development of multiplayer Roblox experience with 400,000+ visitors for Smithing Studios, coordinating a small team to optimize performance using Lua scripting. Engineered data persistence layer using DataStore services with retry logic and error handling, ensuring reliable storage of player progression, inventory, and Game Pass purchases across all sessions.',
     technologies: ['Lua', 'Data Management', 'Roblox Studio', 'Teamwork'],
     status: 'Completed',
-    link: 'https://www.roblox.com/games/6814807832/Fairview-Lane',
+    link: 'https://www.roblox.com/games/121864607057791/Fairview-Lane-RP',
+  },
+  {
+    title: 'Rock Climbing Difficulty Calculator',
+    description: 'App that with a picture of a route will attempt to calculate an estimated difficulty rating.',
+    technologies: ['Python', 'NumPy', 'OpenCV'],
+    status: 'In Progress',
+    link: 'https://github.com/Jaq1b/Rock-Grader',
   },
   {
     title: 'Algorithmic Trading Bot',
@@ -27,13 +34,6 @@ const projects: Project[] = [
     technologies: ['Java', 'Computer Graphics', 'Mathematical Algorithms', 'Raycasting'],
     status: 'Completed',
     link: 'https://github.com/JohnnySprit/RaycastingGame',
-  },
-  {
-    title: 'Rock Climbing Difficulty Calculator',
-    description: 'App that with a picture of a route will attempt to calculate an estimated difficulty rating.',
-    technologies: ['Python', 'NumPy', 'OpenCV'],
-    status: 'In Progress',
-    link: 'https://github.com/Jaq1b/Rock-Grader',
   },
   {
     title: 'Personal Website',

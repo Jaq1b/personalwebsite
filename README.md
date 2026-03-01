@@ -1,21 +1,22 @@
 # Personal Website
 
-A modern personal website with a tabbed interface, built with React and Vite.
+A modern personal portfolio site built with React, TypeScript, Tailwind CSS, and Vite.
 
 ## Features
 
-- Modern, responsive design with smooth animations
-- Mobile-friendly interface
-- Fast performance with Vite
+- Glassmorphism design with blurred background image
+- Fully typed with TypeScript
+- Responsive, mobile-friendly layout
+- Smooth page animations
 - Tabbed navigation with React Router
-- Scroll-to-top on route change
+- Active tab derived from URL — correct on direct load and browser back/forward
 
 ## Sections
 
 - **Home** – Landing and introduction
-- **About** – Bio, education, experience, and skills
+- **About** – Bio, education, work experience, and skills
 - **Credentials** – Links to GitHub, LinkedIn, and Handshake
-- **Projects** – Project showcase
+- **Projects** – Project showcase with tech tags and status badges
 
 ## Getting Started
 
@@ -41,6 +42,12 @@ npm run build
 
 Output goes to `dist/`.
 
+### Type checking
+
+```bash
+npm run type-check
+```
+
 ### Preview production build
 
 ```bash
@@ -50,9 +57,10 @@ npm run preview
 ## Tech stack
 
 - React 18
+- TypeScript 5
+- Tailwind CSS 3
 - React Router DOM 6
 - Vite 5
-- CSS3
 
 ## Project structure
 
@@ -60,18 +68,20 @@ npm run preview
 personalwebsite/
 ├── src/
 │   ├── components/
-│   │   ├── Home.jsx
-│   │   ├── About.jsx
-│   │   ├── Credentials.jsx
-│   │   ├── Projects.jsx
-│   │   └── TabContent.css
-│   ├── App.jsx
+│   │   ├── Home.tsx
+│   │   ├── About.tsx
+│   │   ├── Credentials.tsx
+│   │   └── Projects.tsx
+│   ├── App.tsx
 │   ├── App.css
-│   ├── main.jsx
+│   ├── main.tsx
 │   └── index.css
 ├── public/
 ├── index.html
 ├── package.json
-├── vite.config.js
+├── tailwind.config.ts
+├── postcss.config.js
+├── tsconfig.json
+├── vite.config.ts
 └── README.md
 ```
