@@ -38,13 +38,11 @@ function AppContent() {
     window.scrollTo(0, 0)
   }, [location.pathname])
 
-  const bgImage = `url('${import.meta.env.BASE_URL}IMG_7542.jpeg')`
-
   return (
-    <div
-      className={`app ${pageClass} min-h-screen flex flex-col text-white relative`}
-      style={{ '--bg-image': bgImage } as React.CSSProperties}
-    >
+    <div className={`app ${pageClass} text-white`}>
+      <div className="bg-layer" />
+      <div className="overlay" />
+      <div className="site-content">
       <header className="bg-white/10 backdrop-blur-xl sticky top-0 z-[1000] border-b border-white/10">
         <div className="max-w-[1200px] mx-auto px-8 flex justify-end items-center">
           <nav className="flex gap-2">
@@ -81,6 +79,7 @@ function AppContent() {
           <p>&copy; Jack Wember 2026. All rights reserved.</p>
         </div>
       </footer>
+      </div>
     </div>
   )
 }

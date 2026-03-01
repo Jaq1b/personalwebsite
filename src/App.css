@@ -2,52 +2,38 @@
   --bg-image: url('/personal-website/IMG_7542.jpeg');
 }
 
-.app::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.1);
-  z-index: -1;
-}
-
-.app::after {
-  display: none;
-}
-
-.app.home-page::after,
-.app.about-page::after,
-.app.credentials-page::after,
-.app.projects-page::after {
-  display: block;
-  content: '';
+.bg-layer {
   position: fixed;
   inset: 0;
   background-image: var(--bg-image);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
-  z-index: -2;
   transform: scale(1.05);
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
+  z-index: 0;
 }
 
-.app.home-page::after {
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+.home-page   .bg-layer { filter: blur(3px); }
+.about-page  .bg-layer,
+.credentials-page .bg-layer,
+.projects-page    .bg-layer { filter: blur(15px); }
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }
 
-.app.about-page::after,
-.app.credentials-page::after,
-.app.projects-page::after {
-  filter: blur(15px);
-  -webkit-filter: blur(15px);
-}
+.credentials-page .overlay,
+.projects-page    .overlay { background: rgba(0, 0, 0, 0.15); }
 
-.app.credentials-page::before,
-.app.projects-page::before {
-  background: rgba(0, 0, 0, 0.15) !important;
+.site-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 @keyframes fadeIn {
